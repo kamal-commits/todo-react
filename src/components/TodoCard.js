@@ -20,11 +20,11 @@ const TodoCard = () => {
       <Card style={{ width: '400px', height: '400px', marginTop: '40%' }}>
         <CardContent>
           <center>
-            <h3>Todo List</h3>
+            <h3>Task Manager</h3>
 
             <TextField
               id="standard-basic"
-              label="Add Todo"
+              label="Add Task"
               value={item}
               onChange={(event) => setItem(event.target.value)}
               required
